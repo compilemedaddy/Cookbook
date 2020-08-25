@@ -44,13 +44,13 @@ namespace Cookbook
         }
         private void PopulateIngredients()
         {
-            string query = "SELECT a.Name FROM Ingredient a" +
-                "INNER JOIN RecipeIngredient b ON a.id = b.IngredientId" +
-                "WHERE b.RecipeId = RecipeId";
+            string query = "SELECT a.Name FROM Ingredient a " +
+                "INNER JOIN RecipeIngredient b ON a.Id = b.IngredientId " +
+                "WHERE b.RecipeId = @RecipeId";
 
             using (connection = new SqlConnection(connectionString))
             using (SqlCommand command = new SqlCommand(query, connection))
-            using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))
+            using (SqlDataAdapter adapter = new SqlDataAdapter(command))
             {
                 command.Parameters.AddWithValue("@RecipeId", lstRecipes.SelectedValue);
 
@@ -58,7 +58,7 @@ namespace Cookbook
                 adapter.Fill(ingredientTable);
 
                 lstIngredients.DisplayMember = "Name";
-                lstIngredients.ValueMember = "id";
+                lstIngredients.ValueMember = "Id";
                 lstIngredients.DataSource = ingredientTable;
             }
         }
