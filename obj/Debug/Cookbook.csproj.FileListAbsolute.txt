@@ -1,0 +1,12 @@
+C:\Users\Jesper\source\repos\Cookbook\bin\Debug\Cookbook.mdf
+C:\Users\Jesper\source\repos\Cookbook\bin\Debug\Cookbook_log.ldf
+C:\Users\Jesper\source\repos\Cookbook\bin\Debug\Cookbook.exe.config
+C:\Users\Jesper\source\repos\Cookbook\bin\Debug\Cookbook.exe
+C:\Users\Jesper\source\repos\Cookbook\bin\Debug\Cookbook.pdb
+C:\Users\Jesper\source\repos\Cookbook\obj\Debug\Cookbook.csprojAssemblyReference.cache
+C:\Users\Jesper\source\repos\Cookbook\obj\Debug\Cookbook.FormMain.resources
+C:\Users\Jesper\source\repos\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+C:\Users\Jesper\source\repos\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.cache
+C:\Users\Jesper\source\repos\Cookbook\obj\Debug\Cookbook.csproj.CoreCompileInputs.cache
+C:\Users\Jesper\source\repos\Cookbook\obj\Debug\Cookbook.exe
+C:\Users\Jesper\source\repos\Cookbook\obj\Debug\Cookbook.pdb
